@@ -19,7 +19,7 @@ device:
   fp: ""
 mihoyobbs:
   #控制bbs功能是否启用
-  enable: false
+  enable: true
   #社区签到
   checkin: true
   #签到的社区列表 详情可以看config文件夹下面的readme
@@ -47,7 +47,7 @@ games:
     #原神
     genshin:
       #控制是否启用签到，下面一致
-      checkin: true
+      checkin: false
       #这里是不签到的账号，填入文本型数据 示例["114514","1919810"](也许你这边是和checkin_list那块一样)，下面一致
       black_list: []
     #崩坏2
@@ -64,7 +64,7 @@ games:
       black_list: []
     # 崩坏: 星穹铁道
     honkai_sr:
-      checkin: true
+      checkin: false
       black_list: []
     #绝区零
     zzz:
